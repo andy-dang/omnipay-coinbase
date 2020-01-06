@@ -1,0 +1,27 @@
+{
+    "name": "andy-dang/omnipay-coinbase",
+    "description": "Payoo gateway for Omnipay payment library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "payoo"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Dang",
+            "email": "tuong.dangman@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "omnipay/common": "3.0.1",
+        "php-http/guzzle6-adapter": "^1.1",
+        "cakephp/chronos": "^1.1"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\Coinbase\\" : "src/" }
+    }
+}
